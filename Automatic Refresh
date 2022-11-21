@@ -1,0 +1,14 @@
+// ==UserScript==
+// @name         Automatic Refresh
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://se.lightning.force.com/lightning/cmp/c__LCMP_CCCAlarmListView?*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+ setTimeout(function(){ location.reload(); }, 30*1000); //20*1000  20 X 1seconde
+})();
